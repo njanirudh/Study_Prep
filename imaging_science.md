@@ -69,3 +69,4 @@
 ## References
 1. https://www.eecs.tu-berlin.de/fileadmin/fg144/Courses/10WS/pdci/talks/noise_sensors.pdf
 2. https://www.cambridgeincolour.com/learn-photography-concepts.htm
+3. https://skyandtelescope.org/astronomy-blogs/imaging-foundations-richard-wright/dark-frames-and-bias-frames-demystified/
