@@ -61,7 +61,21 @@
       * As part of software testing, such as for the runtime creation/instantiation of mock objects.
       * Deserializing, serialization 
     * getattr() 
+
+* What are generators?
+  * Return a lazy iterator.
+  * Unlike list the values are not stored in memory.
+  * Uses : Reading large files in memory. 
+  * next() can be used on generator object.
   
+* What does yield expression do?
+  * Used along with generators.
+  * 
+  
+* Different ways to create a generator?
+  * generator functions
+  * generator statements  
+
 ### References
 1. https://rszalski.github.io/magicmethods/#reflection
 2. https://stackoverflow.com/questions/25198271/what-is-the-difference-between-introspection-and-reflectionf
@@ -70,3 +84,4 @@
 5. https://nickmccullum.com/python-pointers/
 6. https://www.geeksforgeeks.org/garbage-collection-python/
 7. https://stackoverflow.com/questions/4828080/how-to-make-an-immutable-object-in-python
+8. https://realpython.com/introduction-to-python-generators/
