@@ -1,6 +1,24 @@
 ### C++ Programming 
 
+#### Philosophy
+* General rules:
+    *  Don't postpone to run time what can be done to compile time.
+    *  Dont use raw pointers (new, delete).
+    *  Express ideas directly in code not by comments (const, naming).
+    *  Use stdlibs whenever possible.
+    *  
+
+
 #### Design 
+
+* Run-time vs Compile time errors:
+   * Compile-time
+      * Program should satisfy all variants (syntax, type)
+      * eg. Syntax errors, Typecheck errors
+   * Run-time 
+      * Run-time invariants require human + compiler help.
+      * eg. Division by zero, Dereferencing a null pointer, Running out of memory
+         
 
 * Improvements of C++ over previous versions
     * Type safety
@@ -33,4 +51,9 @@
 
 #### Concurrency
 
-* 
+
+
+
+#### References:
+1. https://stackoverflow.com/questions/846103/runtime-vs-compile-time
+2. https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction
