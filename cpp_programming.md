@@ -8,6 +8,9 @@
     *  Use stdlibs whenever possible.
     *  
 
+#### std::
+* std::span
+* 
 
 #### Design 
 
@@ -48,6 +51,10 @@
 
 * RAII : Resource Acquisition is Initialization
     * The idiom of having constructors acquire resources and destructors release them is called RAII.
+
+#### Template Metaprogramming
+* 
+
 
 #### Concurrency
 
