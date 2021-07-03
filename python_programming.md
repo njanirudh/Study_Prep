@@ -8,6 +8,9 @@
   * set 
   * map
   * list 
+ 
+ * What are context managers in python?
+  * 
 
 * Are there pointers in python?  
 
