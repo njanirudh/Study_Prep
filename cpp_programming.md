@@ -10,7 +10,9 @@
 
 #### std::
 * std::span
-* 
+
+* When should you use std::endl vs '/n' for new line?
+   * std::endl causes the buffer to be flushed.   
 
 #### Design 
 
