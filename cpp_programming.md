@@ -61,11 +61,14 @@
    * Prevents over optimization from the compiler.  
    
 #### Template Metaprogramming
-* 
-
+* Advantage and Disadvantage of using Templates
+   * Advantages
+   * Disadvantages 
 
 #### Concurrency
-
+* Lock free
+* std::atomic
+* 
 
 
 
