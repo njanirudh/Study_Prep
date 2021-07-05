@@ -15,9 +15,25 @@
 * Duck typing
     * Dynamic languages 
 
+#### Memory 
+
+* Where are the stack and a heap memory stored?
+   * RAM 
+
+* Stack vs Heap
+   * Stack 
+      * Small contiguous blocks of memory.
+      * Each thread has its own stack.
+      * Local variables are stored.
+      * Stack overflow.
+
+   * Heap
+      * Large fragmented memory. 
+      * All threads have access to common heap memory.
+      * Out of memory.
 
 
 
 ### References
 1. https://stackoverflow.com/questions/20563433/difference-between-static-and-dynamic-programming-languages#:~:text=A%20static%20language%20is%20a,compare%20to%20a%20dynamic%20language.
-2. 
+2. http://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/
