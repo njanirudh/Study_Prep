@@ -15,6 +15,10 @@
 * Duck typing
     * Dynamic languages 
 
+#### Analysis
+* Big O
+* What is Amortized Analysis?
+
 #### Memory 
 
 * Where are the stack and a heap memory stored?
