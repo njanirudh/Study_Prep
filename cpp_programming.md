@@ -14,6 +14,9 @@
 * When should you use std::endl vs '/n' for new line?
    * std::endl causes the buffer to be flushed.   
 
+* noexcept
+   * Specifies that the function dosn't throw any exception. 
+
 #### Design 
 
 * Run-time vs Compile time errors:
