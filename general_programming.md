@@ -25,12 +25,14 @@
       * Small contiguous blocks of memory.
       * Each thread has its own stack.
       * Local variables are stored.
-      * Stack overflow.
+      * Scope: function start to end.
+      * Error: Stack overflow.
 
    * Heap
       * Large fragmented memory. 
       * All threads have access to common heap memory.
-      * Out of memory.
+      * Scope: application start to end.
+      * Error: Out of memory.
 
 
 
