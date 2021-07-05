@@ -57,6 +57,9 @@
 * RAII : Resource Acquisition is Initialization
     * The idiom of having constructors acquire resources and destructors release them is called RAII.
 
+* 'volatile 'keyword
+   * Prevents over optimization from the compiler.  
+   
 #### Template Metaprogramming
 * 
 
