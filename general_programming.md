@@ -20,7 +20,7 @@
 * Where are the stack and a heap memory stored?
    * RAM 
 
-* Stack vs Heap
+* Stack vs Heap vs Data Segment
    * Stack 
       * Small contiguous blocks of memory.
       * Each thread has its own stack.
@@ -33,7 +33,11 @@
       * All threads have access to common heap memory.
       * Scope: application start to end.
       * Error: Out of memory.
-
+   
+   * Data Segment
+      * Static objects and global objects are placed in data segment.
+      * Dosn't change at run time.
+      * Size depending on the total variables. 
 
 
 ### References
