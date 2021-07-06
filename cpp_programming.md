@@ -6,7 +6,6 @@
     *  Dont use raw pointers (new, delete).
     *  Express ideas directly in code not by comments (const, naming).
     *  Use stdlibs whenever possible.
-    *  
 
 #### std::
 * std::span
@@ -18,6 +17,9 @@
    * Specifies that the function dosn't throw any exception. 
 
 #### Design 
+
+* C++ 11 Memory model
+   *   
 
 * Run-time vs Compile time errors:
    * Compile-time
