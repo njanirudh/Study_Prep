@@ -9,23 +9,21 @@
   * map
   * list 
  
- * Difference between 'global' and 'nonlocal' keywords?
-  * global
-   * global is that it only works for global variables. 
-   * It cannot see variables in an enclosing, nonglobal scope 
-  * nonlocal 
-   * Define the total variable as non-local, causing it to bind to the nearest non-global variable.
+* Difference between 'global' and 'nonlocal' keywords?
+   * global
+     * global is that it only works for global variables. 
+     * It cannot see variables in an enclosing, nonglobal scope 
+   * nonlocal 
+     * Define the total variable as non-local, causing it to bind to the nearest non-global variable.
  
- * Different levels of variable scopes?
+* Different levels of variable scopes?
    * global
    * local
    * nonlocal
   
- * What are context managers in python?
-  * 
+* What are context managers in python?
 
 * Are there pointers in python?  
-  *
 
 * What are Closures?
   * A closure is an inner function with an extended scope that encompasses nonlocal variables of the outer function. 
