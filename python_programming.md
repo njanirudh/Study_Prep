@@ -8,6 +8,15 @@
   * set 
   * map
   * list 
+
+* list vs set
+  * list
+    * persistant 
+    * keeps ordering
+    * allows duplicates
+  * set 
+    * random ordering
+    * dosn't allow duplicates 
  
 * Difference between 'global' and 'nonlocal' keywords?
    * global
