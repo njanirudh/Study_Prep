@@ -71,9 +71,9 @@
 
 * Deep copy vs Shallow copy  
   * Deep copy
-   * Makes a completely new copy of object.
+    * Makes a completely new copy of object.
   * Shallow copy
-   * Makes only a reference to an object. 
+    * Makes only a reference to an object. 
   
 * Type Introspection and Reflection
   * Type Introspection
