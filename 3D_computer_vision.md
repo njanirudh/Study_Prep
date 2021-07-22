@@ -23,4 +23,7 @@
   * Converting from a homogeneous coordinates to a conventional one is unique; but, converting a conventional coordinates to a homogeneous one is not. 
   * (x,y) in the xy-plane is (xw, yw, w) for any non-zero w. (Non-unique)
 
+* Duality 
+
 * 
+
