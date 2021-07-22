@@ -2,9 +2,10 @@
   *
 
 * Types of Transformations?
-  1. Affine transformation
-  2. Projective transformation
-  3. 
+  1. Euclidean Transformations (Translations and Rotations on the xy-Plane)
+  2. Affine transformation (Scaling and shear)
+  3. Projective transformation
+  4. 
 
 * Isotropic vs Non-Isotropic scaling
   * Isotraopic scaling
