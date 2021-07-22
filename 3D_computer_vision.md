@@ -4,8 +4,7 @@
 * Types of Transformations?
   1. Euclidean Transformations (Translations and Rotations on the xy-Plane)
   2. Affine transformation (Scaling and shear)
-  3. Projective transformation
-  4. 
+  3. Projective transformation (also called perspective transform or homography)
 
 * Isotropic vs Non-Isotropic scaling
   * Isotraopic scaling
@@ -20,7 +19,6 @@
   * (x,y,0) --> in homogeneous coordinates
 
 * Homogeneous coordinate into Eucledian coordinate system
-  * 
   * Converting from a homogeneous coordinates to a conventional one is unique; but, converting a conventional coordinates to a homogeneous one is not. 
   * (x,y) in the xy-plane is (xw, yw, w) for any non-zero w. (Non-unique)
 
