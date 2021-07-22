@@ -27,3 +27,5 @@
 
 * 
 
+### References
+1. https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/
