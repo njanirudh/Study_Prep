@@ -19,6 +19,11 @@
 * Big O
 * What is Amortized Analysis?
 
+* What are different types of problem complexities?
+  * Dimensional Complexity (2D, 3D ...ND data)
+  * Analytic Complexity (polynomial degree 1, 2 ...N)
+  * Combinatorial Complexity (O(nlogn)...)
+
 #### Memory 
 
 * Where are the stack and a heap memory stored?
@@ -47,3 +52,4 @@
 ### References
 1. https://stackoverflow.com/questions/20563433/difference-between-static-and-dynamic-programming-languages#:~:text=A%20static%20language%20is%20a,compare%20to%20a%20dynamic%20language.
 2. http://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/
+3. https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/overview/complexity.html
