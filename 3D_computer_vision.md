@@ -6,6 +6,11 @@
   2. Affine transformation (Scaling and shear)
   3. Projective transformation (also called perspective transform or homography or collineation)
 
+* Types of 
+  * Euler angles 
+  * Axis/angle
+  * quaternions
+
 * Isotropic vs Non-Isotropic scaling
   * Isotraopic scaling
     * Same scaling factor along width and height. 
