@@ -90,11 +90,13 @@
 * What are generators?
   * Return a lazy iterator.
   * Unlike list the values are not stored in memory.
+  * Data can be used only once.
   * Uses : Reading large files in memory. 
   * next() can be used on generator object.
   
 * What does yield expression do?
   * Used along with generators.
+  * returns a value and runs till next yield statement or end of generator.
   
 * Different ways to create a generator?
   * generator functions
