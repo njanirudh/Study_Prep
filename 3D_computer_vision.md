@@ -4,7 +4,7 @@
 * Types of Transformations?
   1. Euclidean Transformations (Translations and Rotations on the xy-Plane)
   2. Affine transformation (Scaling and shear)
-  3. Projective transformation (also called perspective transform or homography)
+  3. Projective transformation (also called perspective transform or homography or collineation)
 
 * Isotropic vs Non-Isotropic scaling
   * Isotraopic scaling
