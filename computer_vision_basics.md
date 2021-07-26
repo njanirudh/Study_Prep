@@ -5,6 +5,9 @@
     * Harris corner
     * Shi–Tomasi
   * 
+### Object detection
+
+### Segmentation
 
 ### Tracking [1]
 
