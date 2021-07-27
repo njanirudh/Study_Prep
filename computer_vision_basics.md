@@ -10,10 +10,16 @@
   * Reduce image noise and blur/smoothen edges in image.
   * Low-pass filter
 
+* Canny edge detection
+  * Color transform to Greyscale
+  * Gx and Gy intensity grad
+  * 
+
 * Different Feature extraction algorithms:
   * Edge detection
     * Sobel filter
     * Prewitt filter  
+    * Canny edge detector
   * Corner detection
     * Harris corner
     * Shi–Tomasi
