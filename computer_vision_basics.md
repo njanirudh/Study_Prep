@@ -31,6 +31,8 @@
  
   * Color transform to Greyscale
   * Gx and Gy intensity grad
+  * Nonmaximum suppression
+  * Thresholding with hysterysis
  
 </details>
 
