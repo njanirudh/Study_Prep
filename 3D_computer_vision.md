@@ -1,3 +1,4 @@
+### Transformations
 <details open>
   <summary> Homogeneous transformation</summary>
   
@@ -44,11 +45,50 @@
   * (x,y) in the xy-plane is (xw, yw, w) for any non-zero w. (Non-unique)
 </details>
 
+### Calibration
 
 <details open>
-  <summary> Duality </summary>
+  <summary> Calibration </summary>
   
+  * Calibration is the process of estimating the camera matrix ie. extrinsic and intrensic paprameters (K) of a camera.
 </details>
+
+<details open>
+  <summary> Camera Matrix </summary>
+  
+  * Camera matrix transforms 3D point in the world to 2D point on the image plane.  
+  * It can be decomposed into 2 components:
+    * Intrinsic parameters
+    * Extinsic parameters
+  * 3D points ---(Extrinsic matrix)---> Camera coordinates ---()---> Image plane 
+</details>
+
+<details open>
+  <summary> What are the intrinsic properties of a camera? </summary>
+  
+  [(src)](https://ksimek.github.io/2012/08/22/extrinsic/)
+  * Image center (cx, cy)
+  * Focal length (fx, fy)
+  * Lens distorsion parameters.
+</details>
+
+<details open>
+  <summary> What are the extrinsic properties of a camera? </summary>
+  
+  [(src)](https://ksimek.github.io/2012/08/22/extrinsic/)
+  * Extrinsic [R|t] transform points in world coordinates into camera coordinates.
+  * Components of extrinsic matrix
+    * R --> Rotation matrix 
+    * t --> Translation vector
+</details>
+
+<details open>
+  <summary> Types of distorsion? </summary>
+  
+  * Radial distorsion
+  * Tangential distorsion
+</details>
+
 
 ----------
 #### Extra References
