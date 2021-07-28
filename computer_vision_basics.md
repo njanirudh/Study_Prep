@@ -55,8 +55,24 @@
 </details>
  
 <details open>
-  <summary> SIFT (Scale Invariant Feature Transform) </summary>
+  <summary> SIFT (Scale Invariant Feature Transform)  </summary>
  
+  * General steps for SIFT are :
+    * Scale space generation (4 octaves and 5 blurs)
+    * LoG approximations (Difference of Gaussians)
+    * Locate key points 
+        * Locate maxima/minima in DoG images (Compare 26 neighbors)
+        * Find subpixel maxima/minima (Interpolation)
+    * Remove bad keypoints
+      * Removing low contrast features (General intensity comparison)
+      * Remove edges and flat regions (corners are good features)
+    * Keypoint orientations
+      * Calculate magnitude and orientation
+      * Histogram (360 degrees of orientation are broken into 36 bins)
+    * Create feature vectors from this (128D)
+      * 16 x 16 grid around (4x4 grids)
+      * Use orientations and magnitudes to create histograms
+  
 </details>
 
 <details open>
