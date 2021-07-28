@@ -3,11 +3,6 @@
 
 <details open>
   <summary> Sobel filter </summary>
- 
-</details>
-
-<details open>
-  <summary> Sobel filter </summary>
     
  * Edge detection algorithm.
 
@@ -99,25 +94,38 @@
 --------------
 ### Tracking [1]
 
-* Main components of visual tracking
+<details open>
+  <summary> Main components of visual tracking </summary>
+
   * Target initialization (Bounding box)
   * Appearance modeling (Feature extraction)
   * Motion model 
     * Motion estimation
     * Motion update
+</details>
 
-* Types of visual tracking
+<details open>
+  <summary> Types of visual tracking </summary>
+
   * Meanshift and Cam shift 
   * Lukas Kanade 
   * Convolution based (Go-turn)
+</details>
 
-* Types of Optical flow:
+<details open>
+  <summary> Types of Optical flow </summary>
+
   * Sparse optical flow
   * Dense optical flow   
 
-* Optical flow working
+</details>
+
+<details open>
+  <summary> Optical flow working </summary>
+ 
   *  2D vector field where each vector is a displacement vector showing the movement of points from first frame to second.
 
+</details>
 
 #### Reference
 1. https://cv-tricks.com/object-tracking/quick-guide-mdnet-goturn-rolo/
