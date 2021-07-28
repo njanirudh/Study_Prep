@@ -5,14 +5,15 @@
   <summary> The Sobel and Laplacian Edge Detectors </summary> 
  
  [(src)](https://aishack.in/tutorials/sobel-laplacian-edge-detectors/)
- *  Sobel edge detector
-   * Gradient based edge detection (1st derivative).
-   * If color change is very steep it is an edge.
-   * 2 kernels (Gx) and (Gy) are used. 
- * Laplacian edge detector
+ *  Sobel edge detector    
+    * Gradient based edge detection (1st derivative).
+    * If color change is very steep it is an edge.
+    * 2 kernels (Gx) and (Gy) are used. 
+ * Laplacian edge detector    
    * 2nd Derivative based edge detection.
    * Extremely sensitive to noise due to 2nd order derivative.
    * Single kernel for both directions and directly get 2nd order derivative. 
+   * Computationally faster to calculate
 
 </details>
 
