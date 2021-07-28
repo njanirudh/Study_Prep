@@ -52,7 +52,7 @@
 <details open>
   <summary> SIFT (Scale Invariant Feature Transform)  </summary>
  
-  * General steps for SIFT are :
+  * General steps for SIFT [(src)](https://aishack.in/tutorials/sift-scale-invariant-feature-transform-introduction/):
     * Scale space generation (4 octaves and 5 blurs)
     * LoG approximations (Difference of Gaussians)
     * Locate key points 
