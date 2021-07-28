@@ -1,21 +1,40 @@
 
 ### Feature extraction
 
-* Sobel filter
-  * Edge detection algorithm.
-  * 
+<details open>
+  <summary> Sobel filter </summary>
+ 
+</details>
 
-* Gaussian filter
-  * Discrete approximation using kernel matrix and convolve it. 
-  * Reduce image noise and blur/smoothen edges in image.
-  * Low-pass filter
+<details open>
+  <summary> Sobel filter </summary>
+    
+ * Edge detection algorithm.
 
-* Canny edge detection
+</details>
+
+<details open>
+  <summary> Gaussian filter </summary>
+ 
+ * Discrete approximation using kernel matrix and convolve it. 
+ * Reduce image noise and blur/smoothen edges in image.
+ * Low-pass filter
+</details>
+
+
+<details open>
+  <summary> Canny edge detection </summary>
+ 
   * Color transform to Greyscale
   * Gx and Gy intensity grad
-  * 
+ 
+</details>
 
-* Different Feature extraction algorithms:
+
+
+<details open>
+  <summary> Different Feature extraction algorithms </summary>
+ 
   * Edge detection
     * Sobel filter
     * Prewitt filter  
@@ -23,17 +42,26 @@
   * Corner detection
     * Harris corner
     * Shi–Tomasi
+ 
+ </details>
 
-* Gaussian pyramid and Laplacian pyramid
+<details open>
+  <summary> Gaussian pyramid and Laplacian pyramid </summary>
+
   * Used for multi scale representation and can be used for extracting multi-scale features.
   * Gaussian pyramid:
     * Uses Gaussian blur between subsequent downsampled image
-    *  
+ 
+</details>
+ 
+<details open>
+  <summary> SIFT (Scale Invariant Feature Transform) </summary>
+ 
+</details>
 
-* SIFT (Scale invariant feature transform)
-  *  
+<details open>
+  <summary> Hough transform </summary>
 
-* Hough transform
   * Method to find shape in the image.
   * Uses polar coordinates. 
   * Accumulator : 
@@ -42,8 +70,9 @@
     2. Choose desired transformations
     3. Iterate through image and populate the accumulator 
     4. Search local maximum values in accumulator space 
+ 
+</details>
 
-*  
 
 --------------
 ### Object detection
