@@ -10,6 +10,91 @@ A. Single stage and multi stage.
 Q. Forward pass vs backward pass?
 
 
+
+#### Classification Metrics
+
+<details open>
+  <summary> Why is accuracy a bad metric? </summary> 
+ 
+ [(src)]()
+Accuracy gives wrong predictive confidance in an class-imbalanced data set.
+
+</details>
+
+<details open>
+  <summary> Classification: Precision and Recall </summary> 
+ 
+ [(src)](https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall)
+* Precision
+  * What proportion of positive identifications was actually correct?
+  * Precision = TP/(TP + FP)
+ 
+* Recall
+  * What proportion of actual positives was identified correctly?
+  * Recall = TP /(TP + FN)
+ 
+</details>
+
+<details open>
+  <summary> Effect of Threshold on Precision and Recall? </summary> 
+ 
+ [(src)]()
+ * Increasing classification threshold.
+   * In general, raising the classification threshold reduces false positives, thus raising precision.
+ * Decreasing classification threshold.
+   * Raising our classification threshold will cause the number of true positives to decrease or stay the same and will cause the number of false negatives to increase or stay the same. Thus, recall will either stay constant or decrease.
+
+</details>
+
+
+<details open>
+  <summary> F1 score </summary> 
+ 
+ [(src)]()
+
+</details>
+
+<details open>
+  <summary> ROC curve (receiver operating characteristic curve)  </summary> 
+ 
+ [(src)](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+ROC curve shows the performance of a classification model at all classification threasholds.
+It is a graph between Precision (True Positive Rate) and False Positive Rate (FPR) . 
+
+</details>
+
+<details open>
+  <summary> Area under the curve of ROC curve </summary> 
+ 
+ [(src)](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+
+
+</details>
+
+<details open>
+  <summary>High Precision or High Recall? </summary> 
+ 
+ [(src)](https://medium.com/analytics-vidhya/precision-recall-tradeoff-for-real-world-use-cases-c6de4fabbcd0)
+* High Recall:
+  * When you cannot afford to have any false negatives, you prioritize recall.
+  * When you cannot afford to miss any detection, you look for high recall
+  * Medical test (eg. cancer detection), Not Safe For Work (NSFW) images detection
+* High Precision
+  * When you cannot afford to have any false positives, you prioritize precision.
+  * when you cannot afford to have any incorrect detection you look for high precision. 
+  * Recommendation Systems, Predicting a good day based on weather conditions to launch satellite, Criminal death punishment, Email spam detection
+
+</details>
+
+<details open>
+  <summary>What are Type 1 and Type 2 errors? </summary> 
+ 
+ [(src)](https://en.wikipedia.org/wiki/Precision_and_recall)
+
+
+</details>
+
+
 Q. What is a 'Bottleneck' layer?       
 A. A bottleneck is an informal term often used for the layer just before the final output layer that actually does the classification.
 
