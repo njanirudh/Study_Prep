@@ -60,7 +60,7 @@
   * It can be decomposed into 2 components:
     * Intrinsic parameters
     * Extinsic parameters
-  * 3D points ---(Extrinsic matrix)---> Camera coordinates ---()---> Image plane 
+  * 3D points ---(Extrinsic matrix)---> Camera coordinates ---(Intrinsic parameters)---> Image plane 
 </details>
 
 <details open>
