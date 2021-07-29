@@ -24,7 +24,7 @@
 
 #### Classification Metrics
 
-<details open>
+<details>
   <summary> Why is accuracy a bad metric? </summary> 
  
  [(src)]()
@@ -32,7 +32,7 @@ Accuracy gives wrong predictive confidance in an class-imbalanced data set.
 
 </details>
 
-<details open>
+<details>
   <summary> Classification: Precision and Recall </summary> 
  
  [(src)](https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall)
@@ -46,7 +46,7 @@ Accuracy gives wrong predictive confidance in an class-imbalanced data set.
  
 </details>
 
-<details open>
+<details>
   <summary> Effect of Threshold on Precision and Recall? </summary> 
  
  [(src)]()
@@ -58,14 +58,14 @@ Accuracy gives wrong predictive confidance in an class-imbalanced data set.
 </details>
 
 
-<details open>
+<details>
   <summary> F1 score </summary> 
  
  [(src)]()
 
 </details>
 
-<details open>
+<details>
   <summary> ROC curve (receiver operating characteristic curve)  </summary> 
  
  [(src)](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
@@ -74,7 +74,7 @@ It is a graph between Precision (True Positive Rate) and False Positive Rate (FP
 
 </details>
 
-<details open>
+<details>
   <summary> Area under the curve of ROC curve </summary> 
  
  [(src)](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
@@ -82,7 +82,7 @@ It is a graph between Precision (True Positive Rate) and False Positive Rate (FP
 
 </details>
 
-<details open>
+<details>
   <summary>High Precision or High Recall? </summary> 
  
  [(src)](https://medium.com/analytics-vidhya/precision-recall-tradeoff-for-real-world-use-cases-c6de4fabbcd0)
@@ -97,7 +97,7 @@ It is a graph between Precision (True Positive Rate) and False Positive Rate (FP
 
 </details>
 
-<details open>
+<details>
   <summary>What are Type 1 and Type 2 errors? </summary> 
  
  [(src)](https://en.wikipedia.org/wiki/Precision_and_recall)
