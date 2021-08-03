@@ -1,5 +1,6 @@
 ### Deep Learning
 
+#### Architecture
 <details>
   <summary> Batch Norm </summary> 
  
@@ -21,6 +22,28 @@
 
 </details>
 
+#### Maths
+
+<details>
+  <summary> Backpropogation </summary> 
+ 
+ [(src)]()
+
+</details>
+
+<details>
+  <summary> Gradient descent, Mini-batch GD, Stochastic GD ? </summary> 
+ 
+ [(src)](https://datascience.stackexchange.com/questions/36450/what-is-the-difference-between-gradient-descent-and-stochastic-gradient-descent)
+
+</details>
+
+
+<details>
+  <summary> What is the stochastic component in Stochastic Gradient Descent ? </summary> 
+ 
+ [(src)](https://datascience.stackexchange.com/questions/36450/what-is-the-difference-between-gradient-descent-and-stochastic-gradient-descent)
+</details>
 
 #### Classification Metrics
 
