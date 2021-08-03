@@ -6,9 +6,9 @@
   <summary> Difference between regularization and normalization? </summary> 
  
  [(src)](https://stackoverflow.com/questions/47014365/what-is-the-difference-between-normalisation-and-regularisation-in-machine-learn#:~:text=1%20Answer&text=Normalisation%20adjusts%20the%20data%3B%20regularisation,as%20standard%20deviation%20and%20mean.)
-  1. Regularization
+  1. Regularization   
     * Regularisation adjusts the prediction function.
-  1. Normalization
+  1. Normalization   
     * Normalisation adjusts the data to have same scale.
 </details>
 
