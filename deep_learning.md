@@ -1,6 +1,36 @@
 ### Deep Learning
 
 #### Architecture
+
+<details>
+  <summary> Difference between regularization and normalization? </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/47014365/what-is-the-difference-between-normalisation-and-regularisation-in-machine-learn#:~:text=1%20Answer&text=Normalisation%20adjusts%20the%20data%3B%20regularisation,as%20standard%20deviation%20and%20mean.)
+  1. Regularization
+    * Regularisation adjusts the prediction function.
+  1. Normalization
+    * Normalisation adjusts the data to have same scale.
+</details>
+
+<details>
+  <summary> Different types of regularization techniques in deep learning? </summary> 
+ 
+ [(src)]()
+  * Dropout
+  * Reduce model size
+  * Increase dataset (Data augmentation)
+  * Early stopping
+</details>
+
+
+<details>
+  <summary> Different types of normalization techniques? </summary> 
+ 
+ [(src)]()
+  * 
+  * 
+</details>
+
 <details>
   <summary> Batch Norm </summary> 
  
@@ -20,6 +50,35 @@
  
  [(src)]()
 
+</details>
+
+<details>
+  <summary> 'Bottleneck' layer </summary> 
+ 
+ [(src)]()
+ A bottleneck is an informal term often used for the layer just before the final output layer that actually does the classification.
+  
+</details>
+
+<details>
+  <summary> Model bias and variance ?</summary> 
+ 
+ [(src)]()
+</details>
+
+<details>
+  <summary> Model bias vs Data bias ?</summary> 
+ 
+ [(src)]()
+</details>
+
+
+#### Training
+
+<details>
+  <summary> Overfitting and Underfitting ?</summary> 
+ 
+ [(src)]()
 </details>
 
 #### Maths
@@ -44,6 +103,16 @@
  
  [(src)](https://datascience.stackexchange.com/questions/36450/what-is-the-difference-between-gradient-descent-and-stochastic-gradient-descent)
 </details>
+
+<details>
+  <summary> Different types of optimizers ? </summary> 
+
+ [(src)]()
+  1. Gradient Descent
+  1. Momentum based
+  1. Adam (adaptive moment estimation)
+</details>
+
 
 #### Classification Metrics
 
@@ -128,13 +197,7 @@ It is a graph between Precision (True Positive Rate) and False Positive Rate (FP
 
 </details>
 
-<details>
-  <summary> 'Bottleneck' layer </summary> 
- 
- [(src)]()
- A bottleneck is an informal term often used for the layer just before the final output layer that actually does the classification.
-  
-</details>
+
 
 
 <details>
