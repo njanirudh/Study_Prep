@@ -56,10 +56,11 @@
   <summary> Run-time vs Compile time errors </summary> 
  
  [(src)](https://stackoverflow.com/questions/846103/runtime-vs-compile-time)
-   * Compile-time errors
+  
+ * Compile-time errors
       * Program should satisfy all variants (syntax, type)
       * eg. Syntax errors, Typecheck errors
-   * Run-time errors
+ * Run-time errors
       * Run-time invariants require human + compiler help.
       * eg. Division by zero, Dereferencing a null pointer, Running out of memory
 </details>
