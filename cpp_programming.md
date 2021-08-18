@@ -21,6 +21,20 @@
 * When should you use std::endl vs '/n' for new line?
    * std::endl causes the buffer to be flushed.   
 
+<details>
+  <summary> namespace </summary> 
+ 
+ [(src)]()
+   
+</details>
+
+<details>
+  <summary> vector, set, map </summary> 
+ 
+ [(src)]()
+   
+</details>
+
 * noexcept
    * Specifies that the function dosn't throw any exception. 
 
@@ -124,6 +138,16 @@
 * Compiled Libs
    * 
    * 
+</details>
+
+
+
+
+<details>
+  <summary> Composition vs Inheritance </summary> 
+ 
+ [(src)]()
+   
 </details>
 
 #### Template Metaprogramming
