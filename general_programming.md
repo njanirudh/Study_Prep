@@ -15,6 +15,16 @@
 * Duck typing
     * Dynamic languages 
 
+<details>
+  <summary> Language Processors: Assembler, Compiler and Interpreter </summary> 
+ 
+ [(src)](https://www.geeksforgeeks.org/language-processors-assembler-compiler-and-interpreter/)
+ * Assembler
+ * Compiler
+ * Interpreter
+</details>
+
+
 #### Analysis
 * Big O
 * What is Amortized Analysis?
@@ -30,6 +40,8 @@
    * RAM 
 
 * Stack vs Heap vs Data Segment
+ [(src)](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap)
+
    * Stack 
       * Small contiguous blocks of memory.
       * Each thread has its own stack.
