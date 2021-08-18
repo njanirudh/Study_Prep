@@ -1,5 +1,13 @@
 ### C++ Programming 
 
+<details>
+  <summary>  </summary> 
+ 
+ [(src)]()
+   
+</details>
+
+   
 #### Philosophy
 * General rules:
     *  Don't postpone to run time what can be done to compile time.
@@ -21,11 +29,20 @@
 * C++ 11 Memory model
    *   
 
+<details>
+  <summary> Run-time vs Compile-time </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/846103/runtime-vs-compile-time)
+   * Run-time 
+   
+</details>
+
+
 * Run-time vs Compile time errors:
-   * Compile-time
+   * Compile-time errors
       * Program should satisfy all variants (syntax, type)
       * eg. Syntax errors, Typecheck errors
-   * Run-time 
+   * Run-time errors
       * Run-time invariants require human + compiler help.
       * eg. Division by zero, Dereferencing a null pointer, Running out of memory
          
@@ -61,11 +78,37 @@
 
 * 'volatile 'keyword
    * Prevents over optimization from the compiler.  
-   
+
+<details>
+  <summary>  Header Only vs Compiled Libs </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/12671383/benefits-of-header-only-libraries)
+* Header Only
+   * Easier to package and distribute.
+   * Simplifies the build process.
+   * No linking process.  
+   * Longer compilation time.
+* Compiled Libs
+   * 
+   * 
+</details>
+
 #### Template Metaprogramming
-* Advantage and Disadvantage of using Templates
+
+<details>
+  <summary>  Advantage and Disadvantage of using Templates </summary> 
+[(src)](https://isocpp.org/wiki/faq/templates)
+   
    * Advantages
+      * Builds a family of classes or functions.
+      * Reduces reundant code. 
    * Disadvantages 
+      * Difficult in maintanence.
+      * Slow to compile.
+      * 
+   
+</details>
+
 
 #### Concurrency
 * Lock free
