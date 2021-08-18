@@ -38,14 +38,18 @@
 </details>
 
 
-* Run-time vs Compile time errors:
+<details>
+  <summary> Run-time vs Compile time errors </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/846103/runtime-vs-compile-time)
    * Compile-time errors
       * Program should satisfy all variants (syntax, type)
       * eg. Syntax errors, Typecheck errors
    * Run-time errors
       * Run-time invariants require human + compiler help.
       * eg. Division by zero, Dereferencing a null pointer, Running out of memory
-         
+</details>
+
 
 * Improvements of C++ over previous versions
     * Type safety
@@ -118,5 +122,4 @@
 
 
 #### References:
-1. https://stackoverflow.com/questions/846103/runtime-vs-compile-time
 2. https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction
