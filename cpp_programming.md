@@ -27,7 +27,30 @@
 #### Design 
 
 * C++ 11 Memory model
-   *   
+
+<details>
+  <summary> Compilation steps in C++ </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work)
+ * The three major steps are:
+    * Preprocesing
+       * Replaces #includes, #defines and other preprocessing directives.
+    * Compilation
+      * Convert the C++ code into assembly code. 
+    * Linking
+      * Object files from compilers are converted into libraries or executables.
+      * Links to external libraries. 
+</details>
+
+<details>
+  <summary> Language Processors: Assembler, Compiler and Interpreter </summary> 
+ 
+ [(src)](https://www.geeksforgeeks.org/language-processors-assembler-compiler-and-interpreter/)
+ * Assembler
+ * Compiler
+ * Interpreter
+</details>
+
 
 <details>
   <summary> Run-time vs Compile-time </summary> 
