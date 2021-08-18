@@ -42,15 +42,6 @@
       * Links to external libraries. 
 </details>
 
-<details>
-  <summary> Language Processors: Assembler, Compiler and Interpreter </summary> 
- 
- [(src)](https://www.geeksforgeeks.org/language-processors-assembler-compiler-and-interpreter/)
- * Assembler
- * Compiler
- * Interpreter
-</details>
-
 
 <details>
   <summary> Run-time vs Compile-time </summary> 
@@ -71,6 +62,20 @@
    * Run-time errors
       * Run-time invariants require human + compiler help.
       * eg. Division by zero, Dereferencing a null pointer, Running out of memory
+</details>
+
+<details>
+  <summary> Stack vs Heap initialization </summary> 
+ [(src)](https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/)
+
+* Stack Initialization
+  * Faster allocation and deallocation.
+  * Small variables can be stored for fast access.
+  * Pointer is created on the stack.
+* Heap Initialization
+  * Memory allocation is slow
+  * Memory should be explicitly cleaned up if 'new' and 'delete' are used.
+  * Heap is a large pool of memory, so big objects must be created on the heap.
 </details>
 
 
