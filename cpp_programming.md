@@ -138,38 +138,78 @@
   * Heap is a large pool of memory, so big objects must be created on the heap.
 </details>
 
+  
+<details>
+  <summary> Improvements of C++ over previous versions </summary> 
+ 
+ [(src)]()
+* Type safety
+* Prevent accidents
+* Auto destruction and memory freeing
+</details>
+  
 
-* Improvements of C++ over previous versions
-    * Type safety
-    * Prevent accidents
-    * Auto destruction and memory freeing 
+<details>
+  <summary>  </summary> 
+ 
+ [(src)]()
+   
+</details>
+  
 
-* Common violations
-    * Type violation
-    * Bounds violation
-    * Lifetime violation
+<details>
+  <summary> Common violations </summary> 
+ 
+ [(src)]()
+* Type violation
+* Bounds violation
+* Lifetime violation
+  
+</details>
 
-* RTTI : Run-time type information
-    * C++ function to determine type information at runtime.
-    * Can be used for same type casts (dynamic, static).
+<details>
+  <summary> RTTI : Run-time type information </summary> 
+ 
+ [(src)]()
+* C++ function to determine type information at runtime.
+* Can be used for same type casts (dynamic, static).
+  
+</details>
 
-* static_cast vs dynamic_cast vs regular_cast vs reinterpret_cast 
-    * Dynamic_cast 
+
+<details>
+  <summary> static_cast vs dynamic_cast vs regular_cast vs reinterpret_cast </summary> 
+ 
+ [(src)]()
+ * Dynamic_cast 
       * Run-time cast
       * Used for polymorphic classes.
       * Type checking is involved (RTTI)
       * Overhead due to type check
-    * Static_cast
+ * Static_cast
       * Compile time cast
       * Reverse an implicit conversion
       * No type checking involved
       * Less overhead
+</details>
+  
 
-* RAII : Resource Acquisition is Initialization
-    * The idiom of having constructors acquire resources and destructors release them is called RAII.
+<details>
+  <summary> RAII : Resource Acquisition is Initialization </summary> 
+ 
+ [(src)]()
+* The idiom of having constructors acquire resources and destructors release them is called RAII.
+  
+</details>
+  
 
-* 'volatile 'keyword
-   * Prevents over optimization from the compiler.  
+<details>
+  <summary> volatile </summary> 
+ 
+ [(src)]()
+* Prevents over optimization from the compiler.     
+</details>
+
 
 <details>
   <summary>  Header Only vs Compiled Libs </summary> 
@@ -184,8 +224,6 @@
    * 
    * 
 </details>
-
-
 
 
 <details>
