@@ -14,10 +14,6 @@
   
 </details>
 
-<details open>
-  <summary> What is Optimization ? </summary>
-  
-</details>
 
 <details open>
   <summary> Jacobian Matrix and Hessian Matrix ? </summary>
