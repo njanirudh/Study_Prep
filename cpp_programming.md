@@ -46,7 +46,7 @@
 </details>
 
 <details>
-  <summary> vector, set, map </summary> 
+  <summary> vector, set, map, pair </summary> 
  
  [(src)](https://stackoverflow.com/questions/3389648/what-is-the-difference-between-stdliststdpair-and-stdmap-in-c-stl)
  [(src)]()
@@ -76,7 +76,7 @@
 <details>
   <summary> noexcept </summary> 
  
- [(src)]()
+ [(src)](https://en.cppreference.com/w/cpp/language/noexcept_spec)
  * Specifies that the function dosn't throw any exception. 
    
 </details>
@@ -104,8 +104,10 @@
   <summary> Run-time vs Compile-time </summary> 
  
  [(src)](https://stackoverflow.com/questions/846103/runtime-vs-compile-time)
-   * Run-time 
-   
+* Run-time 
+  *
+* Compile-time   
+  *   
 </details>
 
 
