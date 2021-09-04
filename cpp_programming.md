@@ -83,8 +83,6 @@
 
 #### Design 
 
-* C++ 11 Memory model
-
 <details>
   <summary> Compilation steps in C++ </summary> 
  
