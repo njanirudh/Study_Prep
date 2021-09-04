@@ -20,7 +20,7 @@
 *  Use stdlibs whenever possible.
 </details>
 
-#### std::
+#### STL 
 
 <details>
   <summary> std::span </summary> 
@@ -46,17 +46,17 @@
 </details>
 
 <details>
-  <summary> vector, set, map, pair </summary> 
+  <summary> std::vector, std::set, std::map, std::pair </summary> 
  
  [(src)](https://stackoverflow.com/questions/3389648/what-is-the-difference-between-stdliststdpair-and-stdmap-in-c-stl)
  [(src)]()
-* vector
+* std::vector
   * 
-* set
+* std::set
   * 
-* pair
+* std::pair
   * stores two heterogeneous objects. 
-* map
+* std::map
   * Associative container.
   * <key, value>
   * offers indexing , map[key]
@@ -65,7 +65,7 @@
 
   
 <details>
-  <summary> array vs vector vs list </summary> 
+  <summary> std::array vs std::vector vs std::list </summary> 
  
  [(src)](https://stackoverflow.com/questions/1905417/array-vs-vector-vs-list)
  [(src)]( https://stackoverflow.com/questions/4424579/stdvector-versus-stdarray-in-c)
@@ -144,14 +144,6 @@
 * Type safety
 * Prevent accidents
 * Auto destruction and memory freeing
-</details>
-  
-
-<details>
-  <summary>  </summary> 
- 
- [(src)]()
-   
 </details>
   
 
@@ -255,9 +247,24 @@
 
 
 #### Concurrency
-* Lock free
-* std::atomic
-* 
+
+<details>
+  <summary> Disadvantages of Locking </summary> 
+ 
+ [(src)](https://www.cs.cmu.edu/~410-s05/lectures/L31_LockFree.pdf)
+
+* Deadlock : Waiting for resource to be freed. 
+* Priority Inversion : Low-priority processes hold a lock required by a higherpriority process.
+  
+</details>
+
+
+<details>
+  <summary> std::atomic </summary> 
+ 
+ [(src)]()
+   
+</details>
 
 
 
