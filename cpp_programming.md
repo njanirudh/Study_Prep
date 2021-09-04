@@ -227,8 +227,13 @@
 <details>
   <summary> Composition vs Inheritance </summary> 
  
- [(src)]()
-   
+ [(src)](https://stackoverflow.com/questions/49002/prefer-composition-over-inheritance)
+
+ * Composition
+  * 
+ * Inheritance
+  *  
+  
 </details>
 
 #### Template Metaprogramming
