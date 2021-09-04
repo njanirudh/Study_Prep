@@ -67,7 +67,8 @@
 <details>
   <summary> array vs vector vs list </summary> 
  
- [(src)](https://stackoverflow.com/questions/1905417/array-vs-vector-vs-list, https://stackoverflow.com/questions/4424579/stdvector-versus-stdarray-in-c)
+ [(src)](https://stackoverflow.com/questions/1905417/array-vs-vector-vs-list)
+ [(src)]( https://stackoverflow.com/questions/4424579/stdvector-versus-stdarray-in-c)
    
 </details>
 
