@@ -9,34 +9,76 @@
 
    
 #### Philosophy
-* General rules:
-    *  Don't postpone to run time what can be done to compile time.
-    *  Dont use raw pointers (new, delete).
-    *  Express ideas directly in code not by comments (const, naming).
-    *  Use stdlibs whenever possible.
+    
+<details>
+  <summary> General rules </summary> 
+ 
+ [(src)]()
+*  Don't postpone to run time what can be done to compile time.
+*  Dont use raw pointers (new, delete).
+*  Express ideas directly in code not by comments (const, naming).
+*  Use stdlibs whenever possible.
+</details>
 
 #### std::
-* std::span
 
-* When should you use std::endl vs '/n' for new line?
-   * std::endl causes the buffer to be flushed.   
+<details>
+  <summary> std::span </summary> 
+ 
+ [(src)](https://en.cppreference.com/w/cpp/container/span)
+* Lightweight abstraction that describes a contiguous sequence of objects. 
+</details>
+
+<details>
+  <summary> When should you use std::endl vs '/n' for new line? </summary> 
+ 
+ [(src)]()
+* std::endl causes the buffer to be flushed.   
+
+</details>
 
 <details>
   <summary> namespace </summary> 
  
- [(src)]()
-   
+ [(src)](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160#:~:text=A%20namespace%20is%20a%20declarative,code%20base%20includes%20multiple%20libraries.)
+* declarative region that provides a scope to the identifiers 
+* Prevents name collsions.   
 </details>
 
 <details>
   <summary> vector, set, map </summary> 
  
+ [(src)](https://stackoverflow.com/questions/3389648/what-is-the-difference-between-stdliststdpair-and-stdmap-in-c-stl)
  [(src)]()
+* vector
+  * 
+* set
+  * 
+* pair
+  * stores two heterogeneous objects. 
+* map
+  * Associative container.
+  * <key, value>
+  * offers indexing , map[key]
+  * logarithmic time
+</details>
+
+  
+<details>
+  <summary> array vs vector vs list </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/1905417/array-vs-vector-vs-list, https://stackoverflow.com/questions/4424579/stdvector-versus-stdarray-in-c)
    
 </details>
 
-* noexcept
-   * Specifies that the function dosn't throw any exception. 
+
+<details>
+  <summary> noexcept </summary> 
+ 
+ [(src)]()
+ * Specifies that the function dosn't throw any exception. 
+   
+</details>
 
 #### Design 
 
