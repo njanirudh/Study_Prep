@@ -123,6 +123,17 @@
 </details>
 
 <details>
+<summary> The rule of three/five/zero </summary> 
+ 
+[(src)](https://en.cppreference.com/w/cpp/language/rule_of_three)
+*  Rule of 3
+  * If a class requires a user-defined destructor, a user-defined copy constructor, or a user-defined copy assignment operator, it almost certainly requires all three.
+*  Rule of 5
+  * 
+* Rule of 0
+</details>
+  
+<details>
   <summary> Stack vs Heap initialization </summary> 
  [(src)](https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/)
 
@@ -245,7 +256,45 @@
    
 </details>
 
+#### General
 
+<details>
+  <summary> 'const int* ptr'  vs  'int * const ptr' </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/21476869/constant-pointer-vs-pointer-to-constant)
+  
+ * 'int * const ptr'
+    * These type of pointers are the one which cannot change address they are pointing to.
+    * You cant increment or decrement pointers.
+ * 'const int* ptr'
+    * These type of pointers are the one which cannot change the value they are pointing to.
+
+</details>
+
+<details>
+  <summary> Linked List vs std::vector </summary> 
+ 
+ [(src)](https://stackoverflow.com/questions/4700052/are-vector-a-special-case-of-linked-lists)
+ *
+  
+</details>
+
+<details>
+  <summary> V-Tables in C++ </summary> 
+ 
+ [(src)](https://www.learncpp.com/cpp-tutorial/the-virtual-table/)
+ * Lookup table to resolve function calls in a dynamic/late binding.
+ * Used to implement virtual functions.
+</details>
+
+
+<details>
+  <summary> The rule of three/five/zero </summary> 
+ 
+ [(src)]()
+   
+</details>
+  
 #### Concurrency
 
 <details>
