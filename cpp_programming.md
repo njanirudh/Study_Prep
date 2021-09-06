@@ -305,7 +305,8 @@
 <summary> Value categories (lvalue, rvalue)</summary> 
  
 [(src)](https://www.fluentcpp.com/2018/02/06/understanding-lvalues-rvalues-and-their-references/)
-   
+* If it’s got a name, it’s an lvalue, otherwise it’s an rvalue. `move` and `forward` convert lvalues (even ones to rvalues!) into rvalues
+  
 </details>
   
 <details>
@@ -321,6 +322,7 @@
   <summary> Disadvantages of Locking </summary> 
  
  [(src)](https://www.cs.cmu.edu/~410-s05/lectures/L31_LockFree.pdf)
+ [(src)](https://stackoverflow.com/questions/3601602/what-are-rvalues-lvalues-xvalues-glvalues-and-prvalues)
 
 * Deadlock : Waiting for resource to be freed. 
 * Priority Inversion : Low-priority processes hold a lock required by a higherpriority process.
