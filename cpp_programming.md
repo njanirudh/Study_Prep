@@ -287,9 +287,29 @@
  * Used to implement virtual functions.
 </details>
 
+<details>
+<summary> move constructor, move-assignment, copy constructor, copy-assignment </summary> 
+ 
+ [(src)]()
+* move constructor
+  * 
+* move assignment
+  * 
+* copy constructor
+  * 
+* copy assignment
+  * 
+</details>
 
 <details>
-  <summary> The rule of three/five/zero </summary> 
+<summary> Value categories (lvalue, rvalue)</summary> 
+ 
+[(src)](https://www.fluentcpp.com/2018/02/06/understanding-lvalues-rvalues-and-their-references/)
+   
+</details>
+  
+<details>
+  <summary> </summary> 
  
  [(src)]()
    
