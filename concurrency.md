@@ -8,3 +8,13 @@
   * Compiler change may break logic.
   * Unknown when other threads will read data 
 </details>
+
+
+<details open>
+  <summary> Mutex vs Semaphores </summary>
+
+  * Mutex
+    * 
+  * Semaphores
+    * 
+</details>
