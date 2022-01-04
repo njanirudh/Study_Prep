@@ -1,5 +1,12 @@
 ### Python Programming
 
+<details>
+  <summary> Tuple/dict unpacking in Python </summary> 
+ 
+ [(src)](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/#:~:text=The%20**%20operator%20allows%20us,arguments%20in%20a%20function%20call.&text=Functions%20in%20Python%20can't,an%20exception%20will%20be%20raised.)
+ Unpacking can be done using ** operator in python.  
+</details>
+
 * How is random implemented in python?   
   * Mersenne Twister pseudo-random number generator.
   * System random generator.
