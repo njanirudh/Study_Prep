@@ -149,7 +149,7 @@
 
   
 <details>
-  <summary> Improvements of C++ over previous versions </summary> 
+  <summary> Improvements of modern C++ over previous versions </summary> 
  
  [(src)]()
 * Type safety
