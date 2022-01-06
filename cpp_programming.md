@@ -257,7 +257,15 @@
 </details>
 
 #### General
+<details>
+  <summary> X && </summary> 
+ 
+ [(src)](https://www.modernescpp.com/index.php/c-core-guidelines-how-to-pass-function-parameters)
+  * r-value reference
+  * std::move() should be used to pass variables.
+</details>
 
+  
 <details>
   <summary> 'const int* ptr'  vs  'int * const ptr' </summary> 
  
