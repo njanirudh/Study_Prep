@@ -72,7 +72,7 @@
  [(src)]()
 </details>
 
-
+--------------
 #### Training
 
 <details>
@@ -81,6 +81,7 @@
  [(src)]()
 </details>
 
+--------------
 #### Maths
 
 <details>
@@ -113,7 +114,7 @@
   1. Adam (adaptive moment estimation)
 </details>
 
-
+--------------
 #### Classification Metrics
 
 <details>
