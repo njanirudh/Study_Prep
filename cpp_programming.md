@@ -7,7 +7,7 @@
    
 </details>
 
-   
+--------------
 #### Philosophy
     
 <details>
@@ -20,6 +20,7 @@
 *  Use stdlibs whenever possible.
 </details>
 
+--------------
 #### STL 
 
 <details>
@@ -81,6 +82,7 @@
    
 </details>
 
+--------------
 #### Design 
 
 <details>
@@ -256,6 +258,7 @@
    
 </details>
 
+--------------
 #### General
 <details>
   <summary> X && </summary> 
@@ -346,6 +349,6 @@
 </details>
 
 
-
+--------------
 #### References:
 2. https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction
