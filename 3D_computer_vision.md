@@ -45,6 +45,7 @@
   * (x,y) in the xy-plane is (xw, yw, w) for any non-zero w. (Non-unique)
 </details>
 
+--------------
 ### Calibration
 
 <details open>
@@ -90,7 +91,7 @@
 </details>
 
 
-----------
+--------------
 #### Extra References
 <details open>
    <summary> Links </summary>
