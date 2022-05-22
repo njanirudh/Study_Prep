@@ -326,7 +326,8 @@
  [(src)]()
    
 </details>
-  
+
+--------------
 #### Concurrency
 
 <details>
@@ -351,4 +352,4 @@
 
 --------------
 #### References:
-2. https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction
+1. https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction
