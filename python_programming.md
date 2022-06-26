@@ -7,16 +7,25 @@
  Unpacking can be done using ** operator in python.  
 </details>
 
-* How is random implemented in python?   
+<details>
+  <summary> How is random implemented in python? </summary> 
+ 
+ [(src)]()
   * Mersenne Twister pseudo-random number generator.
   * System random generator.
+</details>
 
-* Datastructure implementations:
+<details>
+  <summary> Datastructure implementations in python? </summary> 
+ 
+ [(src)]()
   * set 
   * map
   * list 
+</details>
 
-* list vs set
+<details>
+  <summary> List vs Set? </summary> 
   * list
     * persistant 
     * keeps ordering
@@ -24,65 +33,101 @@
   * set 
     * random ordering
     * dosn't allow duplicates 
- 
-* Difference between 'global' and 'nonlocal' keywords?
+</details>
+
+<details>
+  <summary> Difference between 'global' and 'nonlocal' keywords? </summary> 
    * global
      * global is that it only works for global variables. 
      * It cannot see variables in an enclosing, nonglobal scope 
    * nonlocal 
      * Define the total variable as non-local, causing it to bind to the nearest non-global variable.
- 
-* Different levels of variable scopes?
-   * global
+</details>
+
+<details>
+  <summary> Different levels of variable scopes? </summary> 
+    * global
    * local
    * nonlocal
+</details>
+ 
+<details>
+  <summary> What are context managers in python? </summary> 
+ </details>
+ 
+<details>
+  <summary> Are there pointers in python? </summary> 
+ </details>
   
-* What are context managers in python?
-
-* Are there pointers in python?  
-
-* What are Closures?
-  * A closure is an inner function with an extended scope that encompasses nonlocal variables of the outer function. 
-
-* PyObject   
+ <details>
+  <summary> What are Closures? </summary> 
+    * A closure is an inner function with an extended scope that encompasses nonlocal variables of the outer function. 
+ </details>
+ 
+ <details>
+  <summary> PyObject </summary> 
   * Most basic object in python.
   * Eveything is a PyObject.
   * It has Type, Reference Count, value 
-
-* Immutable vs Mutable datastructures?
+ </details>
+ 
+ <details>
+  <summary> Immutable vs Mutable datastructures? </summary> 
   * Immutable objects cannot be changed in program. eg. 
   * Mutable objects can be changed. eg. list()   
+ </details>
 
-* Sort implementations in python?
+ <details>
+  <summary> Sort implementations in python? </summary> 
   * An hybrid sort called as Tim sort is used. ==>  O(n log n)
   * Insertion sort (~ 64 items) ==> O(n^2)
   * Merge sort (64<) ==> O(n log n)
+ </details>
+ 
+<details>
+  <summary> Sort implementations in python? </summary> 
+  * An hybrid sort called as Tim sort is used. ==>  O(n log n)
+  * Insertion sort (~ 64 items) ==> O(n^2)
+  * Merge sort (64<) ==> O(n log n)
+ </details>
 
-* Memory allocation in python?  
+<details>
+  <summary> Memory allocation in python? </summary>
   *  Reference counting
   *  Garbage collection
-
-* What is a reference cycle?  
+ </details>
+  
+<details>
+  <summary> What is a reference cycle? </summary> 
   * When an object refers to itself its called reference cycle.
   * eg. l = []; l.append(l);
   * Normal garbage collection has problems in detection referece cycles.
- 
-* Python magic methods?
+ </details>
+
+<details>
+  <summary> Python magic methods? </summary> 
   * Special methods in a python class.
   * __init__, __new__, __add__ etc.
   * Used for operator overloading.
-
-* Global Interpreter Lock (GIL)  
+ </details>
+   
+   
+<details>
+  <summary> Global Interpreter Lock (GIL) </summary> 
   * It is a mutex (lock) used to prevent access to python objects from multiple threads.
   * Prevents proper mutithreading.
-
-* Deep copy vs Shallow copy  
+ </details>
+   
+<details>
+  <summary> Deep copy vs Shallow copy   </summary> 
   * Deep copy
     * Makes a completely new copy of object.
   * Shallow copy
     * Makes only a reference to an object. 
-  
-* Type Introspection and Reflection
+</details>
+ 
+<details>
+  <summary> Type Introspection and Reflection </summary> 
   * Type Introspection
     * Ability of the program to examine its type at runtime.
     * type()
@@ -93,21 +138,30 @@
       * As part of software testing, such as for the runtime creation/instantiation of mock objects.
       * Deserializing, serialization 
     * getattr() 
-
-* What are generators?
+</details>
+ 
+<details>
+  <summary> What are generators? </summary> 
   * Return a lazy iterator.
   * Unlike list the values are not stored in memory.
   * Data can be used only once.
   * Uses : Reading large files in memory. 
   * next() can be used on generator object.
+</details>
   
-* What does yield expression do?
+<details>
+  <summary> What does yield expression do? </summary> 
   * Used along with generators.
   * returns a value and runs till next yield statement or end of generator.
-  
-* Different ways to create a generator?
-  * generator functions
+</details>
+
+<details>
+  <summary> Different ways to create a generator? </summary> 
+   [(src)](https://realpython.com/introduction-to-python-generators/)
+    * generator functions
   * generator statements  
+</details>
+
 
 ### References
 1. https://rszalski.github.io/magicmethods/#reflection
@@ -117,4 +171,3 @@
 5. https://nickmccullum.com/python-pointers/
 6. https://www.geeksforgeeks.org/garbage-collection-python/
 7. https://stackoverflow.com/questions/4828080/how-to-make-an-immutable-object-in-python
-8. https://realpython.com/introduction-to-python-generators/
