@@ -10,7 +10,7 @@
 <details>
   <summary> How is random implemented in python? </summary> 
  
- [(src)]()
+ [(src)](https://docs.python.org/3/library/random.html)
   * Mersenne Twister pseudo-random number generator.
   * System random generator.
 </details>
@@ -166,7 +166,6 @@
 ### References
 1. https://rszalski.github.io/magicmethods/#reflection
 2. https://stackoverflow.com/questions/25198271/what-is-the-difference-between-introspection-and-reflectionf
-3. https://docs.python.org/3/library/random.html
 4. https://stackoverflow.com/questions/27683764/what-is-a-pyobject-in-python
 5. https://nickmccullum.com/python-pointers/
 6. https://www.geeksforgeeks.org/garbage-collection-python/
