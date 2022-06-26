@@ -16,5 +16,5 @@
 <details>
   <summary> What is Universal Hashing? </summary>
   
-  Randomize the choice of a hash function from a carefully designed set of functions
+  * Randomize the choice of a hash function from a carefully designed set of functions
 </details>
