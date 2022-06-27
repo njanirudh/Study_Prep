@@ -8,3 +8,7 @@
  * Pessimistic Locking
 
 </details>
+
+
+
+https://architecturenotes.co/things-you-should-know-about-databases/
